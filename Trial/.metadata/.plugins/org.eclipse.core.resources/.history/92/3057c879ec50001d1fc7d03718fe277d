@@ -1,0 +1,5 @@
+package animalPkg;
+
+public class Mammal {
+
+}

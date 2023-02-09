@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+C:\Users\jomag\Desktop\TA\Java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3080716010.index
+1257368787.index
+1297013223.index
