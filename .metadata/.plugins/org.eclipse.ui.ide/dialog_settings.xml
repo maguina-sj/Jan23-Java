@@ -43,6 +43,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\jomag\Desktop\TA\Java\example -SaveTravels"/>
+			<item value="C:\Users\jomag\Desktop\TA\Java\67367-1671930106483-SafeTravels"/>
 			<item value="C:\Users\jomag\Desktop\TA\Java\1675311721258-Rohr_Jessica_mvc"/>
 			<item value="C:\Users\jomag\Desktop\Java_April22\StephanieMaguina-Assignments\Week5\Book Club"/>
 			<item value="C:\Users\jomag\Desktop\TA\Java\demo"/>
