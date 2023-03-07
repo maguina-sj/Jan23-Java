@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
@@ -74,13 +75,15 @@ public class NinjaController {
 			}else {
 				activities.add(0, "<p> You completed the quest and earned " + amount + " gold. (" + format.format(new Date()) + ")</p>");
 			}
-			return "redirect:/";
-
-			
+			return "redirect:/";	
 		}
-
 		
-		
+		return "redirect:/";
+	}
+	
+	@RequestMapping("/clear")
+	public String reset(HttpSession session) {
+		session.invalidate();
 		return "redirect:/";
 	}
 }

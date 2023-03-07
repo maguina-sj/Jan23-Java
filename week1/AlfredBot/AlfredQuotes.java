@@ -19,10 +19,14 @@ public class AlfredQuotes {
 
     //sensei bonus of no parameter but depending on the hour of the day it will return the appropriate greeting for the time of day
     public String guestGreeting() {
+        // instantiate a Date object that brings in the current time
         Date date = new Date();
+        //make a simpledateformat object that manipulates whatever date I give it
         SimpleDateFormat formatter = new SimpleDateFormat("H");
+        // make a string that contains the date that is formatted 
         String strDate= formatter.format(date);
-        // return "this is the hour " + strDate;
+        // return "good (whatever)" + the current hour of the day;
+        // because we have the hour as a string, we cast it as an Integer, and since its a wrapper class we can't cast down 
         if (Integer.parseInt(strDate) < 12) {
             return "Good morning " + strDate;
         }

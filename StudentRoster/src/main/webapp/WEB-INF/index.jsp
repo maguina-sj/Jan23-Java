@@ -32,7 +32,7 @@
 	<tr>
 		<td>${dorm.name}</td>
 		<td><a href="/dorm/details/${dorm.id}">See Students</a>
-		<a href="/dorm/destroy/${dorm.id}">Delete Dorm</a></td>
+		<!-- <a href="/dorm/destroy/${dorm.id}">Delete Dorm</a></td> -->
 		
 	</tr>	
 	</c:forEach>

@@ -18,6 +18,7 @@
 <body>
 <h1>New Dorm</h1>
 <form:form action="/dorm/new" method="POST" modelAttribute="newDorm">
+
 <div class = "form-group">
 		<form:label path="name">Name:</form:label>
     	<form:input path="name" class="form-control"/>

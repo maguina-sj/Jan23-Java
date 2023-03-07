@@ -18,6 +18,7 @@
     <div class="container">
 	<div class="row align-items-center, justify-content-around">
 	<h1>Your Gold: <span class="gold_box"> <c:out value="${gold}"/> </span></h1>
+	
     	<div class="col-3">
       	<h3>Farm</h3>
       	<p>(earn 10-20 gold)</p>
@@ -39,6 +40,7 @@
       	<form action="/gold" method="post"><input class="button" type="submit" name="quest" value="Find Gold!"/></form>
     	</div>
   	</div>
+  	<a class="btn btn-primary" href="/clear" role="button">Reset</a>
   </div>
   <div class="container2">
   	<h3>Activities:</h3>
