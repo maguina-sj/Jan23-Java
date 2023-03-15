@@ -34,6 +34,6 @@ public class AlfredTest {
         // System.out.println(alfredTest);
         // System.out.println(notRelevantTest);
         // System.out.println(guestGreeting2);
-        // System.out.println(guestGreeting3);
+        System.out.println(guestGreeting3);
     }
 }

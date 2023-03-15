@@ -27,10 +27,10 @@ public class AlfredQuotes {
         String strDate= formatter.format(date);
         // return "good (whatever)" + the current hour of the day;
         // because we have the hour as a string, we cast it as an Integer, and since its a wrapper class we can't cast down 
-        if (Integer.parseInt(strDate) < 12) {
+        if (Integer.valueOf(strDate) < 12) {
             return "Good morning " + strDate;
         }
-        if (Integer.parseInt(strDate) < 16) {
+        if (Integer.valueOf(strDate) < 16) {
             return "Good afternoon " + strDate;
         }
         else {
